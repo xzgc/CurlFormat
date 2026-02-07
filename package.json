@@ -4,7 +4,11 @@
   "description": "Format curl commands with ease - Transform messy one-liners into clean, readable, multi-line format",
   "version": "0.0.1",
   "icon": "jsonLogo-128X128.png",
-  "publisher": "your-publisher-name",
+  "publisher": "lianJin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xzgc/CurlFormat"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
