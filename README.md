@@ -23,7 +23,7 @@ Transform messy curl commands into clean, readable, multi-line format with ease.
 
 ## 📸 Preview
 
-![Format Effect](imgs/effectSchematicDiagram.png)
+<img src="imgs/effectSchematicDiagram.png" alt="Format Effect" width="1278"/>
 
 ## 🚀 Usage
 
