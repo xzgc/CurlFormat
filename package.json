@@ -1,0 +1,51 @@
+{
+  "name": "curlformat-vscode",
+  "displayName": "CurlFormat",
+  "description": "Format curl commands with ease - Transform messy one-liners into clean, readable, multi-line format",
+  "version": "0.0.1",
+  "icon": "jsonLogo-128X128.png",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "curl",
+        "aliases": ["Curl", "curl"],
+        "extensions": [".curl"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "configuration": {
+      "title": "CurlFormat",
+      "properties": {
+        "curlFormat.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable/disable curl formatting"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.0.0"
+  }
+}
