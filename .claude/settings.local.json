@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npm run compile:*)",
       "Bash(npm install:*)",
-      "Bash(vsce package:*)"
+      "Bash(vsce package:*)",
+      "Bash(set:*)",
+      "Bash(vsce publish:*)",
+      "Bash(vsce login:*)"
     ]
   }
 }

@@ -9,6 +9,10 @@
     "type": "git",
     "url": "https://github.com/xzgc/CurlFormat"
   },
+  "bugs": {
+    "url": "https://github.com/xzgc/CurlFormat/issues"
+  },
+  "homepage": "https://github.com/xzgc/CurlFormat#readme",
   "engines": {
     "vscode": "^1.80.0"
   },
